@@ -1,16 +1,29 @@
 .countries {
-    margin-top: 8%;
+    margin-top: 10%;
     display: flex;
     position: relative;
     align-items: center;
     width: 100%;
   }
+.country {
+    border-radius: .28571429rem;
+    border-color: #27282D;
+    border-width: 1px;
+    border-top-color: #27282D;
+    border-top-width: 2px;
+}
 
+.f8 {
+    font-size: 8px;
+}
 .f25 {
     font-size: 25px;
 }
 .f20 {
     font-size: 20px;
+}
+.spacing {
+    letter-spacing: 7;
 }
 .toptext {
     margin: 0;
@@ -18,17 +31,16 @@
     font-weight: bold;
 
     line-height: 1.5;
-    letter-spacing: 7;
+
     color: #27282D;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     }
-    .text {
+.text {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         line-height: 1.5;
-        letter-spacing: 7;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         }
@@ -42,7 +54,7 @@
             }
 
 .topbar {
-        margin-top: 8%;
+        margin-top: 2%;
         display: flex;
         position: relative;
         align-items: center;
@@ -55,8 +67,12 @@
     flex-direction: column;
 }
 
+.flag {
+    width: 100px;
+    height: 30px;
+}
 .margin_top {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .midbar {
@@ -82,12 +98,12 @@
             justify-content: space-between !important;
             }
 .container {
-        margin-top: 5%;
+        margin-top: 2%;
         margin-left: 5%;
         margin-right: 5%;
         }
 
-        .bet_info {
+.bet_info {
             margin-top: 2%;
             display: flex;
     flex-direction: column;
