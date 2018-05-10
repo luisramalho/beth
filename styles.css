@@ -1,0 +1,95 @@
+.countries {
+    margin-top: 8%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+  }
+
+.f25 {
+    font-size: 25px;
+}
+.f20 {
+    font-size: 20px;
+}
+.toptext {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    line-height: 1.5;
+    letter-spacing: 7;
+    color: #27282D;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+    .text {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: 7;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        }
+.midtext {
+            color: #27282D;
+            }
+.graytext {
+
+            color: #27282D75 ;
+
+            }
+
+.topbar {
+        margin-top: 8%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between !important;
+        }
+
+.grouping {
+    display: flex;
+    flex-direction: column;
+}
+
+.margin_top {
+    margin-top: 10%;
+}
+
+.midbar {
+            margin-top: 1%;
+            display: flex;
+            justify-content: center !important;
+            position: relative;
+            align-items: center;
+            width: 100%;
+            }
+.secondbar {
+                margin-top: 1%;
+                display: flex;
+                justify-content: left !important;
+                position: relative;
+                align-items: center;
+                width: 100%;
+                }
+
+.topbarright {
+            display: flex;
+            position: relative;
+            justify-content: space-between !important;
+            }
+.container {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        }
+
+        .bet_info {
+            margin-top: 2%;
+            display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+            }
